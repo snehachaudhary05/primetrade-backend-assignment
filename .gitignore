@@ -7,15 +7,13 @@ npm-debug.log*
 backend/.env
 *.env
 
-# Claude AI files
-.claude/
-
 # Build output
 frontend/dist/
 frontend/.vite/
 
-# Vite cache
-node_modules/.vite/
+# Cache
+.cache/
+.vite/
 
 # OS files
 .DS_Store
@@ -25,6 +23,11 @@ Thumbs.db
 logs/
 *.log
 
-# IDE
+# IDE & editor folders
 .vscode/
 .idea/
+.cursor/
+*.swp
+
+# Misc local config
+.local/
